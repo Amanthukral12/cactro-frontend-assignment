@@ -12,11 +12,11 @@ const HeroSection = () => {
           everything you need to get stuff done.
         </p>
         <div className="flex">
-          <button className="bg-[#611f69] text-white py-5 px-10 rounded-md font-medium text-sm mr-2">
+          <button className="bg-[#611f69] text-white py-5 px-10 rounded-md font-medium text-sm mr-2 cursor-pointer">
             TRY FOR FREE
           </button>
-          <button className="flex rounded-md bg-[#1976D2] font-medium text-white items-center pr-10 text-sm">
-            <div className="bg-white py-3 px-4 rounded-md m-0.5 mr-2">
+          <button className="flex rounded-md bg-[#1976D2] font-medium text-white items-center pr-10 text-sm cursor-pointer">
+            <div className="bg-white py-3 px-4 rounded-sm m-0.5 mr-2">
               <svg viewBox="0 0 48 48" className="h-5 w-5 sm:h-6 sm:w-6 mr-1">
                 <path
                   fill="#FFC107"

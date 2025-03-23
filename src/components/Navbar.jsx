@@ -18,10 +18,10 @@ const Navbar = () => {
       <div className="flex font-medium space-x-8 items-center">
         <IoMdSearch className="h-6 w-6" />
         <p>Sign in</p>
-        <button className="text-[#611f69] border-2 border-[#611f69] py-2 px-4 rounded-md">
+        <button className="text-[#611f69] border-2 border-[#611f69] py-2 px-4 rounded-md cursor-pointer">
           TALK TO SALES
         </button>
-        <button className="bg-[#611f69] text-white py-2 px-4 rounded-md">
+        <button className="bg-[#611f69] text-white py-2 px-4 rounded-md cursor-pointer">
           TRY FOR FREE
         </button>
       </div>

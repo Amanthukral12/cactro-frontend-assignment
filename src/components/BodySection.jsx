@@ -14,7 +14,7 @@ const BodySection = () => {
           We've seen what the future can be. Now its time to decide <br /> what
           it will be.
         </p>
-        <button className="text-[#611f69] border-2 border-[#611f69] py-2 px-4 rounded-md font-bold">
+        <button className="text-[#611f69] border-2 border-[#611f69] py-2 px-4 rounded-md font-bold cursor-pointer">
           WATCH VIDEO
         </button>
       </div>
