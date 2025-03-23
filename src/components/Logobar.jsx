@@ -9,13 +9,29 @@ import devacurl from "../assets/DevaCurl.png";
 const Logobar = () => {
   return (
     <div className="flex mt-28 max-w-6xl w-full justify-evenly items-center gap-7">
-      <img src={fox} alt="" className="h-[60px] object-contain" />
-      <img src={lonelyPlanet} alt="" className="h-[100px] object-contain" />
-      <img src={intuit} alt="" className="h-[100px] object-contain" />
-      <img src={carvana} alt="" className="h-[75px] object-contain" />
-      <img src={kiva} alt="" className="h-[30px] object-contain" />
-      <img src={target} alt="" className="h-[40px] object-contain" />
-      <img src={devacurl} alt="" className="h-[120px] object-contain" />
+      <img src={fox} alt="fox logo" className="h-[60px] object-contain" />
+      <img
+        src={lonelyPlanet}
+        alt="lonely planet logo"
+        className="h-[100px] object-contain"
+      />
+      <img
+        src={intuit}
+        alt="intuit logo"
+        className="h-[100px] object-contain"
+      />
+      <img
+        src={carvana}
+        alt="carvana logo"
+        className="h-[75px] object-contain"
+      />
+      <img src={kiva} alt="kiva logo" className="h-[30px] object-contain" />
+      <img src={target} alt="target logo" className="h-[40px] object-contain" />
+      <img
+        src={devacurl}
+        alt="devacurl logo"
+        className="h-[120px] object-contain"
+      />
     </div>
   );
 };
