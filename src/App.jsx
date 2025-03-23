@@ -1,10 +1,11 @@
 import "./App.css";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl">Hello World</h1>
-    </>
+    <main className="flex flex-col items-center bg-[#f2e8e6] min-h-screen">
+      <Navbar />
+    </main>
   );
 }
 
