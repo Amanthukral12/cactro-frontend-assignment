@@ -1,4 +1,5 @@
 import "./App.css";
+import BodySection from "./components/BodySection.jsx";
 import HeroSection from "./components/HeroSection.jsx";
 import Logobar from "./components/Logobar.jsx";
 import Navbar from "./components/Navbar.jsx";
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <Logobar />
+      <BodySection />
     </main>
   );
 }
